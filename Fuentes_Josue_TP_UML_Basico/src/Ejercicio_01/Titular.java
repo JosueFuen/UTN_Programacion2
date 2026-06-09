@@ -27,5 +27,14 @@ public class Titular {
     public String getDni() {
         return dni;
     }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Titular{" + "nombre=" + nombre + ", dni=" + dni + ", pasaporte=" + pasaporte + '}';
+    }
     
 }
