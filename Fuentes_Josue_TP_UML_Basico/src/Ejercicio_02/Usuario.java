@@ -35,5 +35,10 @@ public class Usuario {
     public String getDni() {
         return dni;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" + "nombre=" + nombre + ", dni=" + dni + ", celular=" + celular + '}';
+    }
     
 }
