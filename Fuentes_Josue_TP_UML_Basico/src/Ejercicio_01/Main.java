@@ -5,7 +5,7 @@ public class Main {
     
         
         Titular titular=new Titular("Josue","40800700");
-        Pasaporte pasaporte=new Pasaporte("1122459", "02-01--2022","foto.jpg", "jpg");
+        Pasaporte pasaporte=new Pasaporte("1122459", "02-01-2022","foto.jpg", "jpg");
         titular.setPasaporte(pasaporte);
         System.out.println(titular);
         System.out.println(pasaporte);
