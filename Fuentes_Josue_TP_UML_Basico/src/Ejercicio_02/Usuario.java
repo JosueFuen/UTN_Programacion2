@@ -38,7 +38,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" + "nombre=" + nombre + ", dni=" + dni + ", celular=" + celular + '}';
+        return "Usuario{" + "nombre=" + nombre + ", dni=" + dni + '}';
     }
     
 }

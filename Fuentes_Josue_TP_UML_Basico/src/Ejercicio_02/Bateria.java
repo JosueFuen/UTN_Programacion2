@@ -25,5 +25,10 @@ public class Bateria {
     public int getCapacidad() {
         return capacidad;
     }
+
+    @Override
+    public String toString() {
+        return "Bateria [modelo=" + modelo + ", capacidad=" + capacidad + "]";
+    }
     
 }
