@@ -12,7 +12,13 @@ public class Cancion {
         this.artista = artista;
     }
 
-    public String getTitulo() { return titulo; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
-    public Artista getArtista() { return artista; }
+    public String getTitulo() { 
+        return titulo; 
+    }
+    public void setTitulo(String titulo) { 
+        this.titulo = titulo; 
+    }
+    public Artista getArtista() { 
+        return artista; 
+    }
 }
